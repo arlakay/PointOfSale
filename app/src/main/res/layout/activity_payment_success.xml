@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="98dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/icon_payment_success"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:text="Change Rp."/>
+
+            <TextView
+                android:id="@+id/textViewChangePaymentSuccess"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:text="74,400"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Would you like a receipt?"/>
+
+        <EditText
+            android:id="@+id/editTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="300dp"
+            android:layout_marginRight="300dp"
+            android:hint="Type your email address"/>
+
+        <Button
+            android:id="@+id/buttonPrintReceipt"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/charge"
+            android:text="Print Receipt"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/buttonNextSkipReceipt"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="@drawable/skip_receipt"
+            android:text="SKIP RECEIPT"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginRight="320dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/textViewPaymentSalesNewSales"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="+ New Sales"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button_calculator_view"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myShop"
+            android:icon="@drawable/icon_12_cart"
+            android:title="My Shop"
+            android:checked="true" />
+
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/icon_09_inventory"
+            android:title="Inventory"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/icon_11_history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/icon_10_files"
+            android:title="Report" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/icon_08_setting"
+            android:title="Setting"/>
+
+
+        <item android:title="">
+            <menu>
+                <item
+                    android:id="@+id/nav_signout"
+                    android:title="Sign Out"
+                    android:visible="false"/>
+            </menu>
+        </item>
+
+    </group>
+</menu>

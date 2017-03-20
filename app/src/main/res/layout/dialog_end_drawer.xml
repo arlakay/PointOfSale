@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="450dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="End Drawer"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <ImageView
+            android:id="@+id/imageViewReportDrawerDialogEndDrawerCancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_03_arrowleft"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textViewReportDrawerDialogEndDrawerAdd"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="ADD"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/radio_button"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentEnd="true"/>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/abu"
+        android:layout_marginTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textViewReportDrawerDialogEndDrawerDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MONDAY, 12 NOVEMBER 2016"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start of Drawer"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textViewReportDrawerDialogEndDrawerStartDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="11.20 AM"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Starting Cash"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textViewReportDrawerDialogEndDrawerStartingCash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Rp 100,000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash Sale"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textViewReportDrawerDialogEndDrawerCashSale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Rp 200,000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Card Sale"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textViewReportDrawerDialogEndDrawerCardSale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Rp 200,000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expected in Drawer"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/textViewReportDrawerDialogEndDrawerExpectedDrawer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Rp 300,000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exact Amount"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:id="@+id/editTextReportDrawerDialogEndDrawerExactAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:hint="Add Amount"
+                android:layout_marginLeft="50dp"
+                android:inputType="number"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

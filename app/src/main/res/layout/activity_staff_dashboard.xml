@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:gravity="center"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="0.2"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1.8"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="1"
+                        android:background="@drawable/bg_parent_no_rounded">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorPrimary"
+                            android:orientation="vertical"
+                            android:layout_weight="0.65"
+                            android:weightSum="1">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.27">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18sp"
+                                    android:text="Welcome,"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="15dp"
+                                    android:gravity="center"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.2"
+                                android:gravity="center">
+
+                                <ImageView
+                                    android:id="@+id/imageViewShopLogo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/shop_logo"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.25">
+
+                                <TextView
+                                    android:id="@+id/textViewMerchantName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="18sp"
+                                    android:text="Global Sentra Solusi"
+                                    android:textColor="@color/white"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginBottom="20dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.28">
+
+                                <TextView
+                                    android:id="@+id/textViewLogout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="14sp"
+                                    android:text="Logout"
+                                    android:textColor="@color/colorPrimaryDark"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_marginTop="10dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.35"
+                            android:orientation="vertical">
+
+                            <GridView
+                                android:id="@+id/gridViewStaff"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:columnWidth="75dp"
+                                android:numColumns="3"
+                                android:verticalSpacing="10dp"
+                                android:horizontalSpacing="10dp"
+                                android:stretchMode="columnWidth"
+                                android:gravity="center"
+                                android:visibility="visible"/>
+
+                            <LinearLayout
+                                android:id="@+id/linearLayoutEnterPIN"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:gravity="center"
+                                android:weightSum="1"
+                                android:visibility="gone">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.4"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical"
+                                    android:weightSum="1"
+                                    android:layout_weight="0.2">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:layout_weight="0.3">
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:gravity="center"
+                                            android:textColor="@color/black"
+                                            android:textSize="20sp"
+                                            android:text="Enter PIN"/>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="0.2"
+                                        android:orientation="horizontal"
+                                        android:gravity="center">
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/shadow_pin"
+                                            android:layout_marginEnd="3dp">
+                                            <ImageView
+                                                android:id="@+id/imageViewPinOne"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:alpha="0.8"
+                                                android:src="@drawable/dot"
+                                                android:visibility="invisible"/>
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/shadow_pin"
+                                            android:layout_marginEnd="3dp">
+                                            <ImageView
+                                                android:id="@+id/imageViewPinTwo"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:alpha="0.8"
+                                                android:src="@drawable/dot"
+                                                android:visibility="invisible"/>
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/shadow_pin"
+                                            android:layout_marginEnd="3dp">
+                                            <ImageView
+                                                android:id="@+id/imageViewPinThree"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:alpha="0.8"
+                                                android:src="@drawable/dot"
+                                                android:visibility="invisible"/>
+                                        </RelativeLayout>
+
+                                        <RelativeLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:background="@drawable/shadow_pin">
+                                            <ImageView
+                                                android:id="@+id/imageViewPinFour"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:alpha="0.8"
+                                                android:src="@drawable/dot"
+                                                android:visibility="invisible"/>
+                                        </RelativeLayout>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:layout_weight="0.5"
+                                        android:weightSum="1"
+                                        android:gravity="center">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal"
+                                            android:weightSum="1">
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberOne"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="1"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberTwo"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="2"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberThree"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="3"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal"
+                                            android:weightSum="1">
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberFour"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="4"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberFive"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="5"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberSix"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="6"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal"
+                                            android:weightSum="1">
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberSeven"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="7"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberEight"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="8"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberNine"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.33"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="9"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="horizontal"
+                                            android:weightSum="1">
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutBackspace"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.333"
+                                                android:background="@drawable/shadow_pin">
+                                                <ImageView
+                                                    android:id="@+id/imageViewBackspace"
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:src="@android:drawable/ic_delete"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true"
+                                                    android:alpha="0.7"/>
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutNumberZero"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.333"
+                                                android:background="@drawable/shadow_pin">
+                                                <TextView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:text="0"
+                                                    android:textSize="20sp"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                            <RelativeLayout
+                                                android:id="@+id/relativeLayoutEnter"
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="60dp"
+                                                android:layout_weight="0.333"
+                                                android:background="@drawable/shadow_pin">
+                                                <ImageView
+                                                    android:layout_width="15dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:src="@drawable/icon_34_enter"
+                                                    android:layout_centerVertical="true"
+                                                    android:layout_centerHorizontal="true" />
+                                            </RelativeLayout>
+
+                                        </LinearLayout>
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="0.4"></LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="right|top"
+            android:layout_marginTop="?attr/actionBarSize">
+
+            <TextView
+                android:id="@+id/textViewICMP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ICMP"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginRight="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

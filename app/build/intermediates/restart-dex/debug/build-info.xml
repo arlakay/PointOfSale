@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="179405031613065"
+    token="4922189267103589893"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="20353" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="20067" />
+    <task
+        name="verifier"
+        duration="4599" />
+
+    <artifact
+        location="D:\AndroidStudioProjects\PointOfSaleFolder\PointOfSale4.13.2016\PointOfSale\app\build\outputs\apk\app-armeabi-v7a-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="179405031613065"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\AndroidStudioProjects\PointOfSaleFolder\PointOfSale4.13.2016\PointOfSale\app\build\outputs\apk\app-armeabi-v7a-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

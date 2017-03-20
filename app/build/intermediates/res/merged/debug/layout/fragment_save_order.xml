@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSaveOrder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.95"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/textViewTableNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/table_number"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:id="@+id/imageViewCloseSaveOrder"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/red_cross"
+                android:layout_alignEnd="@+id/gridViewSaveOrder" />
+
+            <GridView
+                android:id="@+id/gridViewSaveOrder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="5"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textViewTableNumber"
+                android:verticalSpacing="10dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutGridViewMergeTable"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/textViewTableNumber"
+                android:background="@color/light_abu"
+                android:alpha="0.8"
+                android:visibility="gone">
+
+                <GridView
+                    android:id="@+id/gridViewMergeTable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:numColumns="5"
+                    android:verticalSpacing="10dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_weight="0.05">
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_button_calculator_view"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:layout_weight="0.1"
+                android:visibility="invisible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Merge Table"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_button_calculator_view"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:visibility="invisible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Merge Table"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMergeTable"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_button_calculator_view"
+                android:layout_weight="0.1"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/textViewMergeTable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Merge Table"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_button_calculator_view"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:visibility="invisible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Merge Table"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_button_calculator_view"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:visibility="invisible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Merge Table"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

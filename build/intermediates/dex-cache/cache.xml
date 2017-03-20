@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_10633c53b032e088bb908563c3649a47c4c0ba73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\libs\PclUtilities.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a94181809d2bcea415628d53fff74211d3f4633a">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\PclUtilities_04701c9bb8a8eb24b5349b20ebe77d7935fe5367.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.0.0_4ab045d807921d0c372a89780204d22e80725e34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-23.4.0_61e54c95ce0a6b2bc63208a297aa11aee1542008.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_7779ad2c6d18d753c138b982dccd9a41c01a8370.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_7f0635ed7b8bff3d99a2a5fed1605bb6508e6c3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_d6bcf3556d542633b608034d502887ff3a723edb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_1349ef71ea5e11dc475594f7215ff2ec983cf4dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_8ac0ca5918d1c0abaccf3615642674123a8293f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\0.89.1\72f7f1d61b46ae68970219f3ec29021becbf2906\realm-annotations-0.89.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72f7f1d61b46ae68970219f3ec29021becbf2906">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\realm-annotations-0.89.1_9e253a456c5a2f317e145d68658c1df27a811e9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\core-3.2.1_d323a4139560b6eda2e4b532009f5be5e61de8ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_b604a0079c1f436c5f1c2fb01c407d54b6011a96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\io.realm\realm-android-library\0.89.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="01fe1c9ffa3adb86bb2b5456a598d69037bb647e">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\io.realm-realm-android-library-0.89.1_5eb9292d9e5dd7761597d2009da70a720ab353b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\libs\PclServiceLib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7b22e41aa066206fb6ebc6a86697afe9e10bac93">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\PclServiceLib_faa3e37285de37782041e81de5f6e8bc3f599918.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_e634f4cd26c596b674a903670ab029fd6fcb2708.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="264f0bc4c0680cfe7a60fea1f12a43f1ab48e7c8">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale\app\build\intermediates\pre-dexed\debug\com.getkeepsafe.relinker-relinker-1.2.1_c2bf5e0839f41f566e21d8afe063fbe105abfc35.jar" />
+    </item>
+
+</items>

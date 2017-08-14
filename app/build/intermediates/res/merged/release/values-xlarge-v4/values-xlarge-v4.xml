@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">false</bool>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">50%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">70%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">45%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">72%</item>
+    <dimen name="abc_search_view_text_min_width">192dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="feed_item_border_width">5dp</dimen>
+    <dimen name="feed_item_corner_radius">1dp</dimen>
+    <dimen name="height_variant_modifier">60px</dimen>
+    <dimen name="margin_top">50dp</dimen>
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="nav_header_vertical_spacing">13dp</dimen>
+    <dimen name="text_size_title">23sp</dimen>
+    <dimen name="textsize">20sp</dimen>
+    <integer name="abc_max_action_buttons">5</integer>
+</resources>

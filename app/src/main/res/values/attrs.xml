@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiRowTextCheckedTextView">
+        <attr name="cTitleText" format="string" localization = "suggested"/>
+        <attr name="cTitleTextColor" format="color" />
+        <attr name="cSubTitleText" format="string" localization="suggested" />
+        <attr name="cSubTitleTextColor" format="color" />
+        <attr name="cCheckedState" format="boolean" />
+        <attr name="cDividerColor" format="color" />
+        <attr name="cDividerVisibility" format="boolean" />
+        <attr name="cTitleTextFont" format="string" />
+        <attr name="cSubTitleTextFont" format="string" />
+        <attr name="cSetFixedHeight" format="boolean" />
+    </declare-styleable>
+</resources>

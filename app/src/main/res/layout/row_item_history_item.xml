@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+    <com.ingenico.PointOfSale.Controller.RoundedImageView
+        android:id="@+id/RoundedImageViewRowItemHistoryItem"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/history_empty"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutRowItemHistoryItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewRowItemHistoryItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cheese Burger"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textViewRowItemHistoryCross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="x"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="7dp"
+                android:layout_marginEnd="7dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/textViewRowItemHistoryItemTotalItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/textViewRowItemHistoryItemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 80.000"
+                android:textSize="17sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="right"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayoutRowItemHistoryItemVariant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textViewRowItemHistoryItemVariantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Extra Spicy"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textViewRowItemHistoryItemVariantPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp 80.000"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:gravity="right"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

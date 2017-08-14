@@ -1,0 +1,4 @@
+#Thu Aug 10 20:27:07 ICT 2017
+base.0=C\:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

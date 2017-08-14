@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\release\\layout-normal-port-v4\\barcode.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\layout-normal-port\\barcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\release\\layout-normal-port-v4\\main.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\layout-normal-port\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\release\\layout-normal-port-v4\\inputsimul.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\layout-normal-port\\inputsimul.xml"
+    }
+]

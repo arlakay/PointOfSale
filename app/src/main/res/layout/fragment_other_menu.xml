@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBillToCharge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other Menu"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editTextOtherMenu"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:hint="Enter your other food or drink"
+                android:inputType="text"
+                android:textColorHint="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/textViewOtherMenuPrice"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:hint="Amount Per Item"
+            android:inputType="number"
+            android:background="@drawable/bg_editext_rounded"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:weightSum="1"
+            android:gravity="center"
+            android:background="@drawable/bg_editext_rounded">
+
+            <TextView
+                android:id="@+id/textViewOtherMenuMinus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:text="-"
+                android:alpha="0.8"
+                android:layout_weight="0.44"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/textViewOtherMenuQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:text="1"
+                android:alpha="0.8"
+                android:layout_weight="0.12"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray"
+                android:visibility="visible"/>
+
+            <TextView
+                android:id="@+id/textViewOtherMenuPlus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:text="+"
+                android:alpha="0.8"
+                android:layout_weight="0.44"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonOtherMenuInput"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="@drawable/charge"
+                android:text="@string/add_to_cart"
+                android:textColor="@android:color/white"
+                android:enabled="false"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewPredictionPayment1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:layout_marginRight="2dp"
+                android:text="Rp. 34.000"
+                android:gravity="center"
+                android:background="@drawable/button_hover_rounded"
+                android:textColor="@color/colorPrimaryDark"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/textViewPredictionPayment2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:text="Rp. 34.000"
+                android:gravity="center"
+                android:background="@drawable/button_hover_rounded"
+                android:textColor="@color/colorPrimaryDark"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/textViewPredictionPayment3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="2dp"
+                android:text="Rp. 34.000"
+                android:gravity="center"
+                android:background="@drawable/button_hover_rounded"
+                android:textColor="@color/colorPrimaryDark"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/textViewPredictionPayment4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:layout_marginRight="2dp"
+                android:text="Rp. 34.000"
+                android:gravity="center"
+                android:background="@drawable/button_hover_rounded"
+                android:textColor="@color/colorPrimaryDark"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutConnectToICMP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/buttonConnectToIcmpCommendSale"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/charge"
+                android:text="Connect to ICMP"
+                android:textColor="@android:color/white"/>
+
+            <ScrollView
+                android:id="@+id/scrollViewStruckICMP"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:visibility="invisible">
+
+                <EditText
+                    android:id="@+id/tvResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"/>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayoutCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_button_calculator_view">
+                        <TextView
+                            android:id="@+id/textViewInput1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:alpha="0.4"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_button_calculator_view">
+                        <TextView
+                            android:id="@+id/textViewInput4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="4"
+                            android:alpha="0.4"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_button_calculator_view">
+                        <TextView
+                            android:id="@+id/textViewInput2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="2"
+                            android:alpha="0.4"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_button_calculator_view">
+                        <TextView
+                            android:id="@+id/textViewInput5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="5"
+                            android:alpha="0.4"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:weightSum="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_button_calculator_view">
+                        <TextView
+                            android:id="@+id/textViewInput3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:alpha="0.4"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/bg_button_calculator_view">
+                        <TextView
+                            android:id="@+id/textViewInput6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="6"
+                            android:alpha="0.4"
+                            android:textColor="@color/black"
+                            android:textSize="28sp"
+                            android:gravity="center"
+                            android:clickable="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutInputDelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:background="@drawable/bg_button_calculator_view"
+                    android:gravity="center"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Backspace"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:weightSum="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.33"
+                            android:background="@drawable/bg_button_calculator_view">
+                            <TextView
+                                android:id="@+id/textViewInput7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="7"
+                                android:alpha="0.4"
+                                android:textColor="@color/black"
+                                android:textSize="28sp"
+                                android:gravity="center"
+                                android:clickable="true" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.33"
+                            android:background="@drawable/bg_button_calculator_view">
+                            <TextView
+                                android:id="@+id/textViewInput8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="8"
+                                android:alpha="0.4"
+                                android:textColor="@color/black"
+                                android:textSize="28sp"
+                                android:gravity="center"
+                                android:clickable="true" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.33"
+                            android:background="@drawable/bg_button_calculator_view">
+                            <TextView
+                                android:id="@+id/textViewInput9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="9"
+                                android:alpha="0.4"
+                                android:textColor="@color/black"
+                                android:textSize="28sp"
+                                android:gravity="center"
+                                android:clickable="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.3333"
+                            android:background="@drawable/bg_button_calculator_view">
+                            <TextView
+                                android:id="@+id/textViewInput00"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="00"
+                                android:alpha="0.4"
+                                android:textColor="@color/black"
+                                android:textSize="28sp"
+                                android:gravity="center"
+                                android:clickable="true" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.6667"
+                            android:background="@drawable/bg_button_calculator_view">
+                            <TextView
+                                android:id="@+id/textViewInput0"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="0"
+                                android:alpha="0.4"
+                                android:textColor="@color/black"
+                                android:textSize="28sp"
+                                android:gravity="center"
+                                android:clickable="true" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutInputEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.75"
+                    android:background="@drawable/bg_button_calculator_view"
+                    android:gravity="center"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enter"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.3'
+
+    defaultConfig {
+        applicationId "com.ingenico.PointOfSale"
+        minSdkVersion 17
+        targetSdkVersion 23
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    splits{
+        abi{
+            enable true
+            reset()
+            include 'x86','armeabi','armeabi-v7a','mips'
+            universalApk true
+        }
+    }
+
+}
+
+dependencies {
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'com.squareup.okhttp3:okhttp:3.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile files('libs/PclServiceLib.jar')
+    compile files('libs/PclUtilities.jar')
+}

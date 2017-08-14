@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\release\\menu\\main.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\release\\menu\\activity_cash_register_drawer.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\menu\\activity_cash_register_drawer.xml"
+    }
+]

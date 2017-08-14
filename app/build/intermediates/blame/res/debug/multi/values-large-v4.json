@@ -1,0 +1,463 @@
+[
+    {
+        "outputFile": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 61,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 71,
+                        "endOffset": 184
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 58,
+                    "endOffset": 243
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 189,
+                        "endColumn": 58,
+                        "endOffset": 243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 248,
+                    "endColumn": 70,
+                    "endOffset": 314
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 248,
+                        "endColumn": 70,
+                        "endOffset": 314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 319,
+                    "endColumn": 70,
+                    "endOffset": 385
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 319,
+                        "endColumn": 70,
+                        "endOffset": 385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 390,
+                    "endColumn": 69,
+                    "endOffset": 455
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 390,
+                        "endColumn": 69,
+                        "endOffset": 455
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 460,
+                    "endColumn": 69,
+                    "endOffset": 525
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 460,
+                        "endColumn": 69,
+                        "endOffset": 525
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 530,
+                    "endColumn": 67,
+                    "endOffset": 593
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 530,
+                        "endColumn": 67,
+                        "endOffset": 593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 598,
+                    "endColumn": 67,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 598,
+                        "endColumn": 67,
+                        "endOffset": 661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 63,
+                    "endOffset": 725
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 666,
+                        "endColumn": 63,
+                        "endOffset": 725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 730,
+                    "endColumn": 57,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 90,
+                        "endColumn": 57,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 55,
+                    "endOffset": 839
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 55,
+                        "endOffset": 200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 844,
+                    "endColumn": 41,
+                    "endOffset": 881
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 317,
+                        "endColumn": 41,
+                        "endOffset": 354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 886,
+                    "endColumn": 52,
+                    "endOffset": 934
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 501,
+                        "endColumn": 52,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 939,
+                    "endColumn": 53,
+                    "endOffset": 988
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 446,
+                        "endColumn": 53,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 993,
+                    "endColumn": 54,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 605,
+                        "endColumn": 54,
+                        "endOffset": 655
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 41,
+                    "endOffset": 1085
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 360,
+                        "endColumn": 41,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1090,
+                    "endColumn": 49,
+                    "endOffset": 1135
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 266,
+                        "endColumn": 49,
+                        "endOffset": 311
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1140,
+                    "endColumn": 58,
+                    "endOffset": 1194
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 58,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1199,
+                    "endColumn": 46,
+                    "endOffset": 1241
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 555,
+                        "endColumn": 46,
+                        "endOffset": 597
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1246,
+                    "endColumn": 39,
+                    "endOffset": 1281
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\values-large\\dimens.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 403,
+                        "endColumn": 39,
+                        "endOffset": 438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1286,
+                    "endColumn": 54,
+                    "endOffset": 1336
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 730,
+                        "endColumn": 54,
+                        "endOffset": 780
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1341,
+                    "endColumn": 103,
+                    "endOffset": 1440
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 785,
+                        "endColumn": 103,
+                        "endOffset": 884
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1445,
+                    "endColumn": 115,
+                    "endOffset": 1556
+                },
+                "from": {
+                    "file": "C:\\Users\\e_er_de\\.android\\build-cache\\efdb964397973ba017f6bc4afacd01f8ac33c975\\output\\res\\values-large-v4\\values-large-v4.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 889,
+                        "endColumn": 115,
+                        "endOffset": 1000
+                    }
+                }
+            }
+        ]
+    }
+]

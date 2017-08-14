@@ -1,0 +1,7 @@
+#Fri Aug 11 21:14:55 ICT 2017
+base.0=C\:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ecc73936973d1ce46e7e3c39e977d0fc4badc045
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3370eb72cae86b850cf34df28ce72eefd58ffda6\\classes.dex
+base.1=C\:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3370eb72cae86b850cf34df28ce72eefd58ffda6
+file.0=C\:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ecc73936973d1ce46e7e3c39e977d0fc4badc045\\classes.dex

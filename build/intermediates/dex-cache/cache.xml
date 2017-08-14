@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\libs\PclServiceLib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7b22e41aa066206fb6ebc6a86697afe9e10bac93">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\transforms\dex\debug\folders\1000\2\PclServiceLib_b4a1fb2eaefe5309f645ed50c6cf6e6ca733f598\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\libs\PclUtilities.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a94181809d2bcea415628d53fff74211d3f4633a">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\transforms\dex\debug\folders\1000\2\PclUtilities_7affcddaf2555bc4869c574acb90b5b3855fe76a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ecc73936973d1ce46e7e3c39e977d0fc4badc045\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ac6fcb1e7f1579ce20b82fc61b3e45af77bc44e">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3370eb72cae86b850cf34df28ce72eefd58ffda6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\libs\PclServiceLib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7b22e41aa066206fb6ebc6a86697afe9e10bac93">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\pre-dexed\release\PclServiceLib_b4a1fb2eaefe5309f645ed50c6cf6e6ca733f598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\libs\PclUtilities.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a94181809d2bcea415628d53fff74211d3f4633a">
+        <dex dex="C:\Users\e_er_de\AndroidStudioProjects\PointOfSale - OCTOPOS\app\build\intermediates\pre-dexed\release\PclUtilities_7affcddaf2555bc4869c574acb90b5b3855fe76a.jar" />
+    </item>
+
+</items>

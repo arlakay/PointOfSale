@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-port-v4\\inputsimul.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\layout-large-port\\inputsimul.xml"
+    },
+    {
+        "merged": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-port-v4\\main.xml",
+        "source": "C:\\Users\\e_er_de\\AndroidStudioProjects\\PointOfSale - OCTOPOS\\app\\src\\main\\res\\layout-large-port\\main.xml"
+    }
+]
